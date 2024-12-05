@@ -170,7 +170,7 @@ def split_to_domains(conf):
 if __name__ == "__main__":
     # "categories": ["Digital Music", "Movies and TV", "Office Products", "Video Games", "Books"],
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", type=str, help="split config file", default="config.json.example", required=True)
+    parser.add_argument("--config", type=str, help="split config file", default="config_6.json")
     args = parser.parse_args()
     # Load config
     with open(args.config, 'r') as f:

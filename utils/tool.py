@@ -3,10 +3,10 @@ import os.path as osp
 
 import pandas
 import sklearn
-import tensorflow as tf
+# import tensorflow as tf
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
-from tensorflow.python.keras import backend as K
+# from tensorflow.python.keras import backend as K
 
 
 def AUC(y_true, y_pred):

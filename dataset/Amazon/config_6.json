@@ -11,7 +11,7 @@
   "processed_data_path": "processed_data",
   "rebuild": false,
   "redownload": false,
-  "split_save_path": "split_by_category_6",
+  "split_save_path": "split_data",
   "split_policy": "split_by_category",
   "seed": 123,
   "cores": 8,
