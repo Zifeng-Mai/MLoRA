@@ -4,7 +4,7 @@ import requests
 import os.path as osp
 from tqdm import tqdm
 
-base_url = "http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/{}"
+base_url = "https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_v2/categoryFilesSmall/{}"
 base_name = "{}_5.json.gz"
 
 def category_name_to_filename(catetory_name: str) -> str:
